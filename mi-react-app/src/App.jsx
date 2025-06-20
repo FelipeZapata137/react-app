@@ -13,15 +13,14 @@ function App() {
         <div className = 'info-personal'>
         <p><strong>Email:</strong> felipe.zapata@epn.edu.ec</p>
         <p><strong>Teléfono:</strong> +593 987 269 974</p>
+        <p><strong>Dirección:</strong> Mital del Mundo</p>
         <div className="contenedor-foto"></div>
         <Habilidades />
         </div>
         
       </div>
 
-      {/* Esta será la columna derecha (donde va el resumen, experiencia, etc.) */}
       <div className="columna-derecha">
-        {/* Aquí iría tu resumen profesional, historial laboral, educación, etc. */}
       <h1>Felipe Zapata</h1>
 
       <section className="seccion-resumen">
@@ -39,13 +38,25 @@ function App() {
 
       <section className="seccion-educacion">
         <h2>Educación</h2>
+        <p><strong>Colegio:</strong> Unidad Educativa Técnica Experimental Mital del Mundo</p>
+        <p><strong>Especialidad:</strong> Bachillerato en Ciencias</p>
+        <p><strong>Años:</strong> 2008 - 2020</p>
+        <p><strong>Colegio:</strong> Unidad Educativa Equinoccio San Antonio</p>
+        <p><strong>Especialidad:</strong> Bachillerato en Ciencias</p>
+        <p><strong>Años:</strong> 2020 - 2021</p>
         <p><strong>Universidad:</strong> Escuela Politécnica Nacional</p>
         <p><strong>Carrera:</strong> Tecnología Superior en Desarrollo de Software</p>
         <p><strong>Años:</strong> 2023 - 2025</p>
       </section>
 
-      {/* Puedes añadir más secciones como Experiencia Laboral, Proyectos, etc. */}
-
+      <section className='seccion-cursos'>
+        <h2>Cursos Realizados</h2>
+        <ul>
+          <li>Curso de Python</li>
+          <li>Curso de Música</li>
+          <li>Curso de C++</li>
+        </ul>
+      </section>
     </div>
     </div>
   );
