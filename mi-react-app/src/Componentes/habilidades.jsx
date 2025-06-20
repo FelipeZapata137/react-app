@@ -1,4 +1,5 @@
 import React from 'react';
+import './habilidades.css'
 
 function Habilidades() {
   const listaHabilidades = [

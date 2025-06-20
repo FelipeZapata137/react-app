@@ -1,0 +1,23 @@
+.seccion-habilidades {
+    text-align: left;
+    border-radius: 8px;
+}
+
+.seccion-habilidades h2 {
+    color: #a93b43;
+    font-size: 1.8em;
+    margin-bottom: 8px;  
+}
+
+.seccion-habilidades ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.seccion-habilidades li {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 8px;
+    color: white;
+}

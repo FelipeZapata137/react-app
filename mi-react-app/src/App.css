@@ -32,6 +32,9 @@ body {
   border-radius: 8px;
 }
 
+.estilo-foto {
+  border-radius: 20px
+}
 .columna-izquierda {
   flex: 1;
   padding: 30px 40px;
@@ -52,7 +55,7 @@ body {
 }
 
 h1 {
-  text-align: left;
+  text-align: center;
   color: #4b9fae;
   margin-bottom: 25px;
   border-bottom: 3px solid #4b9fae;
@@ -74,6 +77,10 @@ section {
 
 p {
   margin-bottom: 8px;
+}
+
+.info-personal{
+  text-align: left;
 }
 
 ul {
