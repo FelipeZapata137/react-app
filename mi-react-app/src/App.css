@@ -1,42 +1,91 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+.cv-principal-contenedor {
+  font-family: 'Times New Roman', Times, serif;
+  display: flex;
+  max-width: 1000px;
+  width: 90%;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.columna-izquierda {
+  flex: 1;
+  padding: 30px 40px;
+  background-color: #4b9fae;
+  color: white;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.columna-derecha {
+  flex: 2;
+  padding: 30px 40px;
+  background-color: white;
+  color: black;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1 {
+  text-align: left;
+  color: #4b9fae;
+  margin-bottom: 25px;
+  border-bottom: 3px solid #4b9fae;
+  padding-bottom: 10px;
+  font-size: 2.5em;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+h2 {
+  color: #000000;
+  margin-top: 30px;
+  border-bottom:3px solid #4b9fae;
+  padding-bottom: 5px;
+  font-size: 1.5em;
 }
 
-.card {
-  padding: 2em;
+section {
+  margin-bottom: 20px;
 }
 
-.read-the-docs {
-  color: #888;
+p {
+  margin-bottom: 8px;
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+strong {
+  color: #a93b43;
 }
