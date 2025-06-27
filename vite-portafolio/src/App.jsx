@@ -40,7 +40,7 @@ function App() {
             Siempre estoy buscando nuevos desafíos y oportunidades para aplicar mis habilidades y contribuir a proyectos innovadores.
           </p>
           <a
-            href="enlace de vercel"
+            href="https://tarea-cv-felipezapata137s-projects.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
             className='boton-cv'
