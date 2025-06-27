@@ -7,12 +7,12 @@ function Menu() {
       <div className="logo">Felipe Zapata</div>
       <nav>
         <ul className="nav-list">
-          <li><a href="#" className="nav-link"><strong>Inicio</strong></a></li>
-          <li><a href="#" className="nav-link"><strong>Portafolio</strong></a></li>
-          <li><a href="#" className="nav-link"><strong>¿Quién Soy?</strong></a></li>
-          <li><a href="#" className="nav-link"><strong>Habilidades</strong></a></li>
-          <li><a href="#" className="nav-link"><strong>Testimoninios</strong></a></li>
-          <li><a href="#" className="nav-link"><strong>Contacto</strong></a></li>
+          <li><a href="#inicio-section" className="nav-link"><strong>Inicio</strong></a></li>
+          <li><a href="#mis-proyectos-section" className="nav-link"><strong>Portafolio</strong></a></li>
+          <li><a href="#quien-soy-section" className="nav-link"><strong>¿Quién Soy?</strong></a></li>
+          <li><a href="#habilidades-section" className="nav-link"><strong>Habilidades</strong></a></li>
+          <li><a href="#testimonios-section" className="nav-link"><strong>Testimonios</strong></a></li>
+          <li><a href="#contacto-section" className="nav-link"><strong>Contacto</strong></a></li>
         </ul>
       </nav>
     </header>
