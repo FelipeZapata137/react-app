@@ -40,7 +40,7 @@ function App() {
             Siempre estoy buscando nuevos desafíos y oportunidades para aplicar mis habilidades y contribuir a proyectos innovadores.
           </p>
           <a
-            href="TU_ENLACE_A_VERCEL_DE_TU_CV_AQUI"
+            href="enlace de vercel"
             target="_blank"
             rel="noopener noreferrer"
             className='boton-cv'
